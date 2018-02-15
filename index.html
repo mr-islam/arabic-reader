@@ -1,0 +1,33 @@
+<head>
+
+</head>
+
+<body>
+	<h1>Arabic-Reader</h1>
+	<form action="example/submit.html">
+		<textarea>
+		Paste your Arabic here.
+		</textarea>
+	  <button type="submit">Save</button>
+  	</form>
+	  <script>
+	    let form = document.querySelector("form");
+	    form.addEventListener("submit", event => {
+	      console.log("Saving value", form.elements.value.value);
+	      event.preventDefault();
+	    });
+	  </script>
+	</form>
+</body>
+
+<form action="example/submit.html">
+  Value: <input type="text" name="value">
+  <button type="submit">Save</button>
+</form>
+<script>
+  let form = document.querySelector("form");
+  form.addEventListener("submit", event => {
+    console.log("Saving value", form.elements.value.value);
+    event.preventDefault();
+  });
+</script>
