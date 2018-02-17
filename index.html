@@ -1,33 +1,29 @@
+<html>
 <head>
-
+    <title>arabic-reader</title>
+    <link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
+    <style>
+        #display_message {
+            font-family: 'Amiri';
+            font-size: 24pt;
+        }
+    </style>
 </head>
-
 <body>
-	<h1>Arabic-Reader</h1>
-	<form action="example/submit.html">
-		<textarea>
-		Paste your Arabic here.
-		</textarea>
-	  <button type="submit">Save</button>
-  	</form>
-	  <script>
-	    let form = document.querySelector("form");
-	    form.addEventListener("submit", event => {
-	      console.log("Saving value", form.elements.value.value);
-	      event.preventDefault();
-	    });
-	  </script>
-	</form>
-</body>
+<h1>arabic-reader</h1>
 
-<form action="example/submit.html">
-  Value: <input type="text" name="value">
-  <button type="submit">Save</button>
-</form>
+Enter message: <input type="textarea" id="message">
+<input type="submit" onclick="showMessage()" value="submit" />
+
+<p> Message is: <span id="display_message"></span> </p>
+
 <script>
-  let form = document.querySelector("form");
-  form.addEventListener("submit", event => {
-    console.log("Saving value", form.elements.value.value);
-    event.preventDefault();
-  });
+    function showMessage(){
+        var message = document.getElementById("message").value;
+        display_message.innerHTML= message;
+    }
 </script>
+
+<!-- thanks to: https://stackoverflow.com/a/38285330 -->
+</body>
+</html>
