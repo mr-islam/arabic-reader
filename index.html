@@ -6,16 +6,20 @@
         #display_message {
             font-family: 'Amiri';
             font-size: 24pt;
+            margin: auto;
+        }
+        body {
+            background-color: #f3dfc1;   
         }
     </style>
 </head>
 <body>
 <h1>arabic-reader</h1>
 
-Enter message: <input type="textarea" id="message">
+Enter text: <input type="textarea" id="message">
 <input type="submit" onclick="showMessage()" value="submit" />
 
-<p> Message is: <span id="display_message"></span> </p>
+<p> Text: <span id="display_message"></span> </p>
 
 <script>
     function showMessage(){
