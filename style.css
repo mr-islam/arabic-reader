@@ -4,6 +4,11 @@
         font-family: 'Amiri';
         font-size: 24pt;
 }
+
+#amiri-font {
+        font-family: 'Amiri';
+}
+        
 body {
         background-color: #f3dfc1;   
 }
