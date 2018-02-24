@@ -16,9 +16,9 @@
 <body>
 <h1>arabic-reader</h1>
 
-<div style="margin-left:auto;margin-right:auto;">
+<div style="margin-left:auto;margin-right:auto;" id="user-input">
     Enter Arabic: <textarea id="message"></textarea>
-    <input type="submit" onclick="showMessage()" value="submit" />
+    <input type="submit" onclick="showMessage(); hideInput()" value="submit" />
 </div>
 
 <p> Read! <span id="display_message"></span> </p>
