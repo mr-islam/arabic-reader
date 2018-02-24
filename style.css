@@ -1,7 +1,9 @@
-        #display_message {
-            font-family: 'Amiri';
-            font-size: 24pt;
-        }
-        body {
-            background-color: #f3dfc1;   
-        }
+@import url('https://fonts.googleapis.com/css?family=Amiri');
+
+#display_message {
+        font-family: 'Amiri';
+        font-size: 24pt;
+}
+body {
+        background-color: #f3dfc1;   
+}
