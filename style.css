@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Amiri');
+        
+body {
+        background-color: #f3dfc1;   
+}
 
 #display-message {
         font-family: 'Amiri';
@@ -9,8 +13,4 @@
 
 #amiri-font {
         font-family: 'Amiri';
-}
-        
-body {
-        background-color: #f3dfc1;   
 }
