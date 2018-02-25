@@ -3,6 +3,8 @@
 #display-message {
         font-family: 'Amiri';
         font-size: 24pt;
+        text-align: center;
+        width: 50%;
 }
 
 #amiri-font {
