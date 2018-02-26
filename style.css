@@ -2,7 +2,6 @@
         
 body {
         background-color: #f3dfc1;   
-        color: #383838;
 }
 
 #display-message {
@@ -10,6 +9,7 @@ body {
         font-size: 24pt;
         text-align: center;
         width: 50%;
+        color: #383838;
 }
 
 #amiri-font {
