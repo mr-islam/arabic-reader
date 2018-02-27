@@ -1,7 +1,7 @@
 
 function showMessage() {
   var message = document.getElementById("message").value;
-  display-message.innerHTML= message;
+  document.getElementById("display-message").innerHTML = message;
 }
 
 function hideInput() {
