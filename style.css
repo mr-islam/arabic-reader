@@ -3,7 +3,7 @@
 body {
         background-color: #f3dfc1;   
 }
-#display-message {
+#user-output {
         font-family: 'Amiri';
         font-size: 24pt;
         text-align: center;
