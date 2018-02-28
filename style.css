@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Amiri');
         
 body {
-        background-color: #f3dfc1;   
+        background-color: #ffecd1;   
 }
 #user-output {
         font-family: 'Amiri';
@@ -22,3 +22,4 @@ h1 {
 }
 textarea {
         font-size: 16pt;
+        background-color: #fff2e0;
