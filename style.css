@@ -3,7 +3,6 @@
 body {
         background-color: #f3dfc1;   
 }
-
 #display-message {
         font-family: 'Amiri';
         font-size: 24pt;
@@ -11,11 +10,10 @@ body {
         width: 50%;
         color: #383838;
 }
-
 #amiri-font {
         font-family: 'Amiri';
+        color: #383838;
 }
-
 h1 {
         color: #383838;
 }
