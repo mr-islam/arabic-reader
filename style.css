@@ -16,3 +16,7 @@ body {
 h1 {
         color: #383838;
 }
+#input {
+        margin-left:auto;
+        margin-right:auto;
+}
