@@ -17,8 +17,7 @@ h1 {
         color: #383838;
 }
 #input {
-        margin-left:auto;
-        margin-right:auto;
+        text-align: center;
 }
 textarea {
         font-size: 16pt;
