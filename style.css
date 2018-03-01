@@ -17,6 +17,7 @@ textarea {
         font-size: 16pt;
         background-color: #f9ebe0;
         margin: 5px;
+        border-radius: 7px;
 }
 #button {
         color: #f9ebe0;
