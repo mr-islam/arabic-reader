@@ -22,6 +22,7 @@ textarea {
         color: #f9ebe0;
         background-color: #b09e99;
         border-radius: 7px;
+        font-size: 16pt;
 }
 #user-output {
         font-family: 'Amiri';
