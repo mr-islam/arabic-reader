@@ -1,21 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Amiri');
-        
+@import url('https://fonts.googleapis.com/css?family=Amiri');   
 body {
         background-color: #ffecd1;   
-}
-#user-output {
-        font-family: 'Amiri';
-        font-size: 28pt;
-        text-align: center;
-        color: #383838;
-}
-#amiri-font {
-        font-family: 'Amiri';
-        color: #383838;
 }
 h1 {
         color: #383838;
         text-align: center;
+}
+#amiri-font {
+        font-family: 'Amiri';
+        color: #383838;
 }
 .input {
         text-align: center;
@@ -24,6 +17,14 @@ textarea {
         font-size: 16pt;
         background-color: #f9ebe0;
         margin: 5px;
+}
 #button {
         color: #f9ebe0;
         background-color: #b09e99;
+}
+#user-output {
+        font-family: 'Amiri';
+        font-size: 28pt;
+        text-align: center;
+        color: #383838;
+}
