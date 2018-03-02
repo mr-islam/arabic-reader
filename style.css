@@ -33,3 +33,12 @@ textarea {
         text-align: center;
         color: #383838;
 }
+#footer {
+        background-color: #fff6ed;
+        color: #383838;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+}
