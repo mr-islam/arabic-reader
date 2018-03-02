@@ -18,12 +18,14 @@ textarea {
         background-color: #f9ebe0;
         margin: 5px;
         border-radius: 7px;
+        border: 0;
 }
 #button {
         color: #383838;
         background-color: #f9ebe0;
         border-radius: 7px;
         font-size: 16pt;
+        border: 0;
 }
 #user-output {
         font-family: 'Amiri';
