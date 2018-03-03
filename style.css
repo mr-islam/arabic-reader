@@ -15,7 +15,7 @@ h1 {
 }
 textarea {
         font-size: 16pt;
-        background-color: #fff6ed;
+        background-color: #fff0e2;
         margin: 5px;
         border-radius: 7px;
         border: 0;
@@ -25,12 +25,9 @@ textarea {
 textarea:hover {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-textarea:focus {
-        background-color: #fff0e2;
-}
 #button {
         color: #383838;
-        background-color: #fff6ed;
+        background-color: #fff0e2;
         border-radius: 7px;
         font-size: 12pt;
         border: 0;
