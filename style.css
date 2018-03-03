@@ -4,14 +4,18 @@ body {
 }
 h1 {
         color: #383838;
-        text-align: center;
+        display:flex;
+        justify-content:center;
+        align-items:center;
 }
 #amiri-font {
         font-family: 'Amiri';
         color: #383838;
 }
 .input {
-        text-align: center;
+        display:flex;
+        justify-content:center;
+        align-items:center;
 }
 textarea {
         font-size: 16pt;
