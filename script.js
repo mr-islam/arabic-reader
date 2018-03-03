@@ -5,7 +5,7 @@ function showMessage() {
 }
 
 function hideInput() {
-  var x = document.getElementById("user-input");
+  var x = document.getElementsByClassName("input");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
