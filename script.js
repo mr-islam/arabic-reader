@@ -5,10 +5,10 @@ function showMessage() {
 }
 
 function hideInput() {
-  var x = document.getElementsByClassName("input");
-  if (x.style.display === "none") {
-    x.style.display = "block";
+  var inputElems = document.getElementsByClassName("input");
+  if (inputElems.style.display === "none") {
+    inputElems.style.display = "block";
   } else {
-    x.style.display = "none";
+    inputElems.style.display = "none";
   }
 } 
