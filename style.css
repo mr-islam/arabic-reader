@@ -44,11 +44,18 @@ button:hover {
         color: #383838;
 }
 #footer {
-        background-color: #fff6ed;
+        background-color: #fff0e2;
         color: #383838;
         position: fixed;
         left: 0;
         bottom: 0;
         width: 100%;
         text-align: center;
+        
+        column-count: 2;
+        column-rule-width: 1px;
+        column-rule-color: #fff0e2;        
+}
+p {
+        column-span: 1;
 }
