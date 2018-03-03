@@ -25,6 +25,9 @@ textarea {
 textarea:hover {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+textarea:focus {
+        background-color: #fff0e2;
+}
 #button {
         color: #383838;
         background-color: #fff6ed;
