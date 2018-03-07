@@ -60,14 +60,5 @@ button:hover {
         left: 0;
         bottom: 0;
         width: 100%;
-        text-align: center;
-        
-        column-count: 2;
-        column-rule-width: 1px;
-        column-rule-color: #fff0e2;        
-}
-p {
-        display:flex;
-        justify-content:center;
-        align-items:center;
+        text-align: center;       
 }
