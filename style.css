@@ -67,5 +67,7 @@ button:hover {
         column-rule-color: #fff0e2;        
 }
 p {
-        column-span: 1;
+        display:flex;
+        justify-content:center;
+        align-items:center;
 }
