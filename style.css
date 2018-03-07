@@ -12,11 +12,6 @@ h1 {
         font-family: 'Amiri';
         color: #383838;
 }
-.input {
-        display:flex;
-        justify-content:center;
-        align-items:center;
-}
 textarea {
         font-size: 16pt;
         background-color: #fff0e2;
@@ -25,6 +20,8 @@ textarea {
         border: 0;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
+        display:inline-block;
+        vertical-align:middle;
 }
 textarea:hover {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
