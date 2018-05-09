@@ -1,3 +1,5 @@
+*yo, checkout [Qari](https://github.com/mr-islam/qari) where I refactored this app and made it better.*
+
 # arabic-reader
 Paste Arabic, read with ease. A model of how the typography and core app experience will be.
 
